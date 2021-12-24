@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+body {
+  height: 3000px;
+}
+
+/* jumbotron */
+.container-fluid {
+  width: 90%;
+}
+.container {
+  width: 70%;
+}
+
+.jumbotron {
+  background: url(img-travel/hero-bg2.jpg) center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  border-radius: 28px;
+  padding-top: 150px;
+  padding-left: 22px;
+  padding-right: 22px;
+  color: white;
+}
+.jumbotron h1 {
+  font-size: 28px;
+  text-align: center;
+}
+.jumbotron p {
+  font-size: 12px;
+  text-align: center;
+}
+
+/* panel */
+.info-panel {
+  background-color: white;
+  min-height: 160px;
+  padding: 35px 20px;
+  margin-top: -70px;
+  border-radius: 22px;
+}
+label {
+  font-size: 18px;
+  font-weight: 400;
+  color: #a5a5a5;
+  margin-bottom: 2px;
+}
+label img {
+  margin-right: 8px;
+  margin-top: -10px;
+}
+
+.form-control,
+.form-select {
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: -14px;
+  margin-bottom: 24px;
+}
+.btn {
+  background-color: #4241a6;
+  border: none;
+  width: 100%;
+  border-radius: 22px;
+}
+
+/* populer destination */
+.populer {
+  margin-top: 90px;
+}
+.populer h1 {
+  font-size: 26px;
+  color: #4241a6;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.populer p {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #979797;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+.card-body {
+  height: 210px;
+}
+
+/* offer */
+.top-week .container {
+  margin-top: 100px;
+}
+.top-week h2 {
+  font-size: 26px;
+  color: #4241a6;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.top-week p {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #979797;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.carousel-inner img {
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
+
+/* blog */
+.blog {
+  margin-top: 100px;
+}
+.blog .title-blog h2 {
+  font-size: 26px;
+  color: #4241a6;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.blog .title-blog p {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #979797;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.blog img {
+  border-radius: 20px;
+}
+.blog h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.blog p {
+  color: #979797;
+}
+.blog .link {
+  color: #4241a6;
+  margin-bottom: 50px;
+}
+.blog .container .top-news img {
+  width: 500px;
+}
+.blog .container .news img {
+  width: 500px;
+  height: 200px;
+  margin-top: 30px;
+}
+/* gallery */
+.gallery {
+  margin-top: 100px;
+}
+.gallery .carousel-inner img {
+  width: 700px;
+}
+.title-gallery h2 {
+  font-size: 26px;
+  color: #4241a6;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.title-gallery p {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #979797;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+/* subscribe */
+.subscribe {
+  position: absolute;
+  width: 100%;
+}
+.panel-subscribe {
+  background-color: #fff;
+  min-height: 200px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 45px;
+  margin-top: 100px;
+  border-radius: 22px;
+}
+.panel-subscribe p {
+  font-size: 26px;
+  font-weight: bold;
+  color: #4241a6;
+  text-align: center;
+}
+.panel-subscribe label {
+  font-size: 18px;
+  color: #4241a6;
+  font-weight: bold;
+  margin-left: 9px;
+  margin-top: 20px;
+}
+.panel-subscribe input {
+  border: none;
+  padding-left: 18px;
+  width: 100%;
+  height: 46px;
+  background-color: #b8ddff;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+input:focus {
+  outline: none;
+}
+.input ::-webkit-input-placeholder {
+  color: rgb(102, 117, 168) !important;
+  font-size: 14px;
+}
+.btn-subscribe {
+  width: 100%;
+}
+/* footer */
+
+.footer-items {
+  min-height: 480px;
+  margin-top: 200px;
+  padding: 10px 40px 30px 40px;
+}
+.footer-1 {
+  margin-bottom: 137px;
+  margin-top: 330px;
+}
+.footer-2 {
+  margin-top: -100px;
+}
+.footer-3 {
+  margin-top: 24px;
+}
+.footer-4 {
+  margin-top: 24px;
+  margin-bottom: 82px;
+}
+.footer .title-items h3 {
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+.list-footer p a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* RESPONSIVE */
+@media (min-width: 576px) {
+  /* jumbotron */
+  .jumbotron {
+    height: 650px;
+    padding-top: 120px;
+    padding-left: 80px;
+  }
+  .jumbotron h1 {
+    font-size: 56px;
+    text-align: left;
+  }
+  .jumbotron p {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  /* info pannel */
+  .info-panel {
+    padding: 20px;
+  }
+  .form-control,
+  .form-select {
+    margin-bottom: auto;
+  }
+
+  /* populer */
+  .populer {
+    margin-top: 120px;
+  }
+  .populer h1 {
+    font-size: 36px;
+  }
+  .populer p {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  /* top week */
+  .top-week .container {
+    margin-top: 120px;
+  }
+  .top-week h2 {
+    font-size: 36px;
+  }
+  .top-week p {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  /* blog */
+  .blog .title-blog h2 {
+    font-size: 36px;
+  }
+  .blog .title-blog p {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .blog .news {
+    margin-top: -26px;
+  }
+  .blog h3 {
+    font-size: 22px;
+  }
+  .blog .container .news img {
+    width: 200px;
+  }
+  /* gallery */
+  .gallery .carousel-inner img {
+    height: 550px;
+  }
+  .gallery {
+    margin-top: 140px;
+  }
+  .title-gallery h2 {
+    font-size: 36px;
+  }
+  .title-gallery p {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  /* subscribe */
+  .panel-subscribe {
+    margin-top: 120px;
+    padding: 30px 20px;
+    margin-bottom: -80px;
+  }
+  .panel-subscribe p {
+    font-size: 36px;
+  }
+  .panel-subscribe label {
+    margin-bottom: 10px;
+  }
+  .input ::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+  .btn-subscribe {
+    width: 75%;
+  }
+  /* footer */
+  .footer-1 {
+    margin-top: 120px;
+  }
+}

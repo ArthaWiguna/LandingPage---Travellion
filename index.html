@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- My Css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Travellion</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <p class="mt-sm-n3" style="color:#4241A6; font-weight:bold; font-size: 24px;"><img
+                        src="img-travel/logo.png" alt="logo" width="70">Travellion
+                </p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-bold">
+                    <li class="nav-item me-5">
+                        <a class="nav-link active" aria-current="page" href="#" style="color:#4241A6;">Home</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#" style="color:#000;">Explore</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#" style="color:#000;">Travel</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#" style="color:#000;">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1 class="display-4 lh-base mb-4" style="letter-spacing:4px; font-weight: 900;">
+                Life is short
+                <br> and
+                the world <br>is Wide!</h1>
+            <p class="lead" style="letter-spacing: 2px;">Find and book a great experience</p>
+        </div>
+    </div>
+
+    <!-- Panel -->
+    <section class="panel">
+        <div class="container">
+            <div class="row justify-content-center info-panel shadow align-content-center">
+                <div class="col-11">
+                    <div class="row">
+                        <div class="col-lg">
+                            <label for="location"><img src="img-travel/navigation.svg" alt="navigation">Location</label>
+                            <select class="form-select" id="location" aria-label="Default select example">
+                                <option selected>Gaza, Palestine</option>
+                                <option value="1">Uganda, Amerika</option>
+                                <option value="2">Jerusalem, Israel</option>
+                                <option value="3">Suriah, Irak</option>
+                            </select>
+                        </div>
+                        <div class="col-lg">
+                            <label for="date"><img src="img-travel/calendar.svg" alt="calendar">Date</label>
+                            <input type="date" class="form-control" id="date">
+
+                        </div>
+                        <div class="col-lg">
+                            <label for="traveller"><img src="img-travel/user.svg" alt="user">Traveller</label>
+                            <select class="form-select" id="traveller" aria-label="Default select example">
+                                <option value="1">1 Person</option>
+                                <option value="2">2 Person</option>
+                                <option value="3">3 Person</option>
+                                <option value="4">4 Person</option>
+                            </select>
+                        </div>
+                        <div class="col-lg">
+                            <label for="budget"><img src="img-travel/credit-card.svg" alt="card">Budget</label>
+                            <select class="form-select" id="budget" aria-label="Default select example">
+                                <option selected>Businnes</option>
+                                <option value="1">Ekonomi</option>
+                                <option value="2">Yang Penting Sampai</option>
+                            </select>
+                        </div>
+                        <div class="col-lg">
+                            <button type="button" class="btn btn-lg btn-dark mt-3"><img class="me-2"
+                                    src="img-travel/search2.svg" alt="search">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Poouler Destination -->
+    <section class="populer">
+        <div class="container-fluid">
+            <div class="row text-lg-center">
+                <div class="col">
+                    <h1>Popular Destinations</h1>
+                    <p>From historical cities to natural splendours, come see the best of worlds!</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3">
+                    <div class="card border-0">
+                        <img src="img-travel/grand-canyon.jpg" class="card-img-top shadow-sm" alt="gc"
+                            style=" height:230px; border-radius: 20px;">
+                        <div class="card-body position-relative px-4 pt-5 shadow"
+                            style="border-bottom-left-radius:20px; border-bottom-right-radius: 20px; margin-top:-22px;">
+                            <h5 class="card-title fw-bold fs-5">Grand Canyon, Arizona</h5>
+                            <img src="img-travel/star2.svg" alt="rate">
+                            <p class=" mt-4 fw-normal" style="color:#a5a5a5;">From <span class="fs-2 fw-bold"
+                                    style="color: #4241A6;">$288</span>
+                            </p>
+                            <a href="#" class="btn btn-dark position-absolute"
+                                style="top: 136px; right:20px; width:120px;">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0">
+                        <img src="img-travel/france.jpg" class="card-img-top shadow-sm" alt="france"
+                            style=" height:230px; border-radius: 20px;">
+                        <div class="card-body position-relative px-4 pt-5 pb-2 shadow"
+                            style="border-bottom-left-radius:20px; border-bottom-right-radius: 20px; margin-top:-22px;">
+                            <h5 class="card-title fw-bold fs-5">Paris, France</h5>
+                            <img src="img-travel/star2.svg" alt="rate">
+                            <p class=" mt-4 fw-normal" style="color:#a5a5a5;">From <span class="fs-2 fw-bold"
+                                    style="color: #4241A6;">$488</span>
+                            </p>
+                            <a href="#" class="btn btn-dark position-absolute"
+                                style="top: 136px; right:20px; width:120px;">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0">
+                        <img src="img-travel/bali.jpg" class="card-img-top shadow-sm" alt="bali"
+                            style=" height:230px; border-radius: 20px;">
+                        <div class="card-body position-relative px-4 pt-5 pb-2 shadow"
+                            style="border-bottom-left-radius:20px; border-bottom-right-radius: 20px; margin-top:-22px;">
+                            <h5 class="card-title fw-bold fs-5">Kuta, Bali</h5>
+                            <img src="img-travel/star2.svg" alt="rate">
+                            <p class=" mt-4 fw-normal" style="color:#a5a5a5;">From <span class="fs-2 fw-bold"
+                                    style="color: #4241A6;">$488</span>
+                            </p>
+                            <a href="#" class="btn btn-dark position-absolute"
+                                style="top: 136px; right:20px; width:120px;">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- top-week -->
+    <section class="top-week">
+        <div class="container">
+            <h2 class=" text-center">Most Wanted This Week</h2>
+            <p class=" text-center">Checkout our top week tours</p>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img src="img-travel/parthenon.jpg" class="d-block w-100" alt="ptn">
+                                <div style="margin-top: -100px; color: #fff; margin-left: 40px;">
+                                    <h5>Parthenon</h5>
+                                    <p style="color: white; margin-top: -3px;"> <img class=" me-2"
+                                            src="img-travel/map-pin.svg" alt="map">Athena, Yunani</p>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="img-travel/pisa2.jpg" class="d-block w-100" alt="pisa">
+                                <div style="margin-top: -100px; color: #fff; margin-left: 40px;">
+                                    <h5>Pisa</h5>
+                                    <p style="color: white; margin-top: -3px;"> <img class=" me-2"
+                                            src="img-travel/map-pin.svg" alt="map">Roma, Italia</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="img-travel/machu pichu.jpg" class="d-block w-100" alt="mpc">
+                                <div style="margin-top: -100px; color: #fff; margin-left: 40px;">
+                                    <h5>Machu Pichu</h5>
+                                    <p style="color: white; margin-top: -3px;"> <img class=" me-2"
+                                            src="img-travel/map-pin.svg" alt="map">North Amerika</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img src="img-travel/petra.jpg" class="d-block w-100" alt="petra">
+                                <div style="margin-top: -100px; color: #fff; margin-left: 40px;">
+                                    <h5>Petra</h5>
+                                    <p style="color: white; margin-top: -3px;"> <img class=" me-2"
+                                            src="img-travel/map-pin.svg" alt="map">Yordania</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="img-travel/niagara.jpg" class="d-block w-100" alt="niagara">
+                                <div style="margin-top: -100px; color: #fff; margin-left: 40px;">
+                                    <h5>Niagara</h5>
+                                    <p style="color: white; margin-top: -3px;"> <img class=" me-2"
+                                            src="img-travel/map-pin.svg" alt="map">New York, Amerika</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="img-travel/great-wall.jpg" class="d-block w-100" alt="gw">
+                                <div style="margin-top: -100px; color: #fff; margin-left: 40px;">
+                                    <h5>Great Wall</h5>
+                                    <p style="color: white; margin-top: -3px;"> <img class=" me-2"
+                                            src="img-travel/map-pin.svg" alt="map">Beijing, China</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Blog -->
+    <section class="blog">
+        <div class="container">
+            <div class="title-blog">
+                <h2 class=" text-center">Our Blog's</h2>
+                <p class="text-center">More information about event in arround the world</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="top-news col-lg-6">
+                    <img src="img-travel/pool-party.jpg" alt="pool" class=" img-fluid">
+                    <h3 class="mt-4">Pool party with sunset view in Bali</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, illum. Corporis unde
+                        fugiat doloremque nobis! Incidunt repellat quo beatae odit similique dolorum velit, quos aperiam
+                        animi unde numquam consectetur nesciunt.</p>
+                    <a class="link fst-italic text-decoration-none" href="#">Read more</a>
+                </div>
+                <div class="news col-lg-6">
+                    <div class="d-lg-flex mb-2 align-items-center">
+                        <img src="img-travel/eiffel-night.jpg" alt="en" width="130px" class="img-fluid">
+                        <div class="caption ms-lg-4 mt-3">
+                            <h3>Romantic moment under eiffel in the night</h3>
+                            <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, in!</p>
+                            <a class="link fst-italic text-decoration-none" href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="d-lg-flex mb-2 align-items-center">
+                        <img src="img-travel/bali-culture.jpg" alt="bali" width="130px" class="img-fluid">
+                        <div class="caption ms-lg-4 mt-3">
+                            <h3>Balinese ngiring ceremony</h3>
+                            <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, in!</p>
+                            <a class="link fst-italic text-decoration-none" href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="d-lg-flex mb-2 align-items-center">
+                        <img src="img-travel/japanese-building.jpg" alt="jav" width="130px" class="img-fluid">
+                        <div class="caption ms-lg-4 mt-3">
+                            <h3>Characteristics of japanese buildings</h3>
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, sunt.</p>
+                            <a class="link fst-italic text-decoration-none" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery">
+        <div class="container">
+            <div class="title-gallery text-center">
+                <h2>Destinations Gallery</h2>
+                <p>Our photos gallery on trip</p>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img-travel/gallery1.jpg" class="d-block w-100 img-fluid" alt="g1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Family holiday</h5>
+                            <p>Make some great experience trip with your family</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img-travel/gallery2.jpg" class="d-block w-100 img-fluid" alt="g2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Enjoy with love ones</h5>
+                            <p>Visite some memoriable moments arround the World</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img-travel/gallery3.jpg" class="d-block w-100 img-fluid" alt="g3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Solo travelling for your life</h5>
+                            <p>Find peace in your journey
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- subscribe -->
+    <section class="subscribe">
+        <div class="container">
+            <div class="row  panel-subscribe shadow-lg mx-1 justify-content-center align-items-center">
+                <div class="col-lg-4">
+                    <p style="margin-top:32px;">Our Newsletter</p>
+                </div>
+                <div class="col-lg-4 input ms-lg-5">
+                    <label for="email">Enter Your Email</label>
+                    <input type="email" id="email" placeholder="example@gmail.com">
+                </div>
+                <div class="col-lg-3">
+                    <button type="button" class="btn btn-lg btn-subscribe btn-dark"
+                        style="margin-top:32px;">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container-fluid" style="background-color: #4241A6;">
+            <div class="row footer-items justify-content-lg-around align-items-end text-white">
+                <div class="col-lg-2 footer-1">
+                    <div class="title-items">
+                        <h3>Travellion</h3>
+                    </div>
+                    <div class="social-media d-flex">
+                        <img src="img-travel/ig1.svg" alt="ig" class="me-4">
+                        <img src="img-travel/fb2.svg" alt="fb" class="me-4">
+                        <img src="img-travel/tw3.svg" alt="tw">
+                    </div>
+                </div>
+                <div class="col-lg-2 footer-2">
+                    <div class="title-items">
+                        <h3>Information</h3>
+                    </div>
+                    <div class="list-footer">
+                        <p>
+                            <a href="#">Home</a>
+                        </p>
+                        <p>
+                            <a href="#">Explore</a>
+                        </p>
+                        <p>
+                            <a href="#">Travel</a>
+                        </p>
+                        <p>
+                            <a href="#">Blog</a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-lg-2 footer-3">
+                    <div class="title-items">
+                        <h3>Helpfull Link</h3>
+                    </div>
+                    <div class="list-footer">
+                        <p><a href="#">Destinations</a></p>
+                        <p><a href="#">Supports</a></p>
+                        <p><a href="#">Terms & Condition</a></p>
+                        <p><a href="#">Privacy</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-2 footer-4">
+                    <div class="title-items">
+                        <h3>Contact</h3>
+                    </div>
+                    <div class="list-footer">
+                        <p><a href="#">+62 881 0337 666</a></p>
+                        <p><a href="#">infotravellion@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
